@@ -1,0 +1,56 @@
++ {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dfe5d7+12,fcfff4+49,fcfff4+49,fcfff4+84,b3bead+98 */
+background: rgb(223,229,215); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(223,229,215,1) 12%, rgba(252,255,244,1) 49%, rgba(252,255,244,1) 49%, rgba(252,255,244,1) 84%, rgba(179,190,173,1) 98%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(223,229,215,1) 12%,rgba(252,255,244,1) 49%,rgba(252,255,244,1) 49%,rgba(252,255,244,1) 84%,rgba(179,190,173,1) 98%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(223,229,215,1) 12%,rgba(252,255,244,1) 49%,rgba(252,255,244,1) 49%,rgba(252,255,244,1) 84%,rgba(179,190,173,1) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfe5d7', endColorstr='#b3bead',GradientType=1 ); /* IE6-9 */
+
+}
+
+.contenedor{
+	width: 1300px;
+	background: #fff;
+	margin: 10px auto;
+}
+
+.parte-arriba {
+	background: #fff;
+	overflow: hidden;	
+}
+
+.logo {
+	float: center;
+	width: 1300px; 
+	height: 450px;
+	padding: 1px;
+}
+
+
+
+.menu {
+	float: left;
+}
+
+.Menu-horizontal li{
+	float: left;
+	list-style: none;
+
+}
+
+.Menu-horizontal li a{
+	color: #000;
+	padding: 25px;
+	text-decoration: none;
+	border: 1px solid #ccc;
+}
+
+.Menu-horizontal li a:hover {
+	background: #000;
+}
+
